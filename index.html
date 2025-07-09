@@ -2,13 +2,14 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio - Bruno</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Bruno Fernandes</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Bruno Ferreira</h1>
+  <header class="fade-in">
+    <h1>Bruno Fernandes</h1>
     <nav>
       <a href="#sobre">Sobre</a>
       <a href="#projetos">Projetos</a>
@@ -17,33 +18,56 @@
     </nav>
   </header>
 
-  <section id="sobre">
-    <h2>Sobre mim</h2>
-    <p>Sou desenvolvedor web com foco em Angular e Java. Apaixonado por tecnologia, gosto de criar soluções eficientes e elegantes.</p>
+  <section id="hero" class="fade-up">
+    <h2>Bem-vindo ao meu portfólio</h2>
+    <p>Desenvolvedor Web | Angular | Java | Front-End & Back-End</p>
   </section>
 
-  <section id="projetos">
+  <section id="sobre" class="fade-up">
+    <h2>Sobre mim</h2>
+    <p>Sou desenvolvedor com experiência em aplicações Angular e backend Java. Gosto de criar soluções modernas, performáticas e com foco na experiência do usuário.</p>
+  </section>
+
+  <section id="projetos" class="fade-up">
     <h2>Projetos</h2>
-    <ul>
-      <li><strong>Loja Virtual</strong> – Angular + Spring Boot + JWT</li>
-      <li><strong>Minha Coleta</strong> – Plataforma de gestão de resíduos</li>
-      <li><strong>CMV</strong> – Sistema de controle de mercadorias e vendas</li>
+    <div class="projetos">
+      <div class="card">
+        <h3>Loja Virtual</h3>
+        <p>Angular + Spring Boot + JWT</p>
+      </div>
+      <div class="card">
+        <h3>Minha Coleta</h3>
+        <p>Plataforma de gestão de resíduos</p>
+      </div>
+      <div class="card">
+        <h3>CMV</h3>
+        <p>Sistema de controle de mercadorias</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="fade-up">
+    <h2>Habilidades</h2>
+    <ul class="habilidades">
+      <li>Angular</li>
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>TypeScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git</li>
+      <li>MySQL</li>
     </ul>
   </section>
 
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <p>Angular, Java, Spring Boot, TypeScript, HTML, CSS, JavaScript, Git, MySQL</p>
-  </section>
-
-  <section id="contato">
+  <section id="contato" class="fade-up">
     <h2>Contato</h2>
     <p>Email: brunofss1985@gmail.com</p>
     <p><a href="https://github.com/brunofss1985" target="_blank">GitHub</a></p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 - Bruno Ferreira</p>
+  <footer class="fade-in">
+    <p>&copy; 2025 - Bruno Fernandes</p>
   </footer>
 </body>
 </html>
