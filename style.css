@@ -265,6 +265,15 @@ header.transparent {
   color: #9cdcfe;
 }
 
+.symbol {
+  color: #be1eb0; /* cor para vírgulas, dois-pontos, igual, ponto e vírgula */
+}
+
+.bracket {
+  color: #be1eb0; /* cor para {}, [], () */
+}
+
+
 .floating-icons {
   position: absolute;
   width: 100%;
