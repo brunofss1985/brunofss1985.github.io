@@ -1,14 +1,4 @@
- const header = document.getElementById('mainHeader');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        header.classList.add('transparent');
-      } else {
-        header.classList.remove('transparent');
-      }
-    });
-
-        // Criar partículas flutuantes
-        function createParticles() {
+    function createParticles() {
             const particlesContainer = document.getElementById('particles');
             
             for (let i = 0; i < 50; i++) {
