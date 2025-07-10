@@ -1,0 +1,229 @@
+.sobre-mim-header {
+  background-color: var(--editor-header);
+  height: 4rem;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sobre-mim-header::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: #ff5f56;
+  border-radius: 50%;
+  box-shadow: 20px 0 0 #ffbd2e, 40px 0 0 #27ca3f;
+}
+
+.sobre-mim-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 40px;
+  background-color: var(--code-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+.sobre-mim-container::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, var(--accent-color), var(--secondary-accent));
+  border-radius: 50%;
+  opacity: 0.1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.sobre-mim-container::after {
+  content: '';
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  width: 60px;
+  height: 60px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  opacity: 0.15;
+  animation: float 4s ease-in-out infinite reverse;
+}
+
+.sobre-mim-code-decoration {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  font-family: 'Courier New', monospace;
+  color: var(--accent-color);
+  opacity: 0.3;
+  font-size: 14px;
+  line-height: 1.5;
+  animation: fadeInOut 8s ease-in-out infinite;
+}
+
+.sobre-mim-code-decoration-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  font-family: 'Courier New', monospace;
+  color: var(--secondary-accent);
+  opacity: 0.25;
+  font-size: 12px;
+  line-height: 1.4;
+  animation: fadeInOut 6s ease-in-out infinite reverse;
+}
+
+.sobre-mim-floating-icons {
+  position: absolute;
+  top: 30%;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0.2;
+}
+
+.sobre-mim-floating-icon {
+  width: 30px;
+  height: 30px;
+  background: var(--accent-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+.sobre-mim-floating-icon:nth-child(2) {
+  animation-delay: 0.5s;
+  background: var(--secondary-accent);
+}
+
+.sobre-mim-floating-icon:nth-child(3) {
+  animation-delay: 1s;
+  background: #ed8936;
+}
+
+.sobre-mim-image {
+  position: relative;
+  z-index: 2;
+}
+
+.sobre-mim-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  filter: brightness(50%);
+  border: 2px solid var(--accent-color);
+}
+
+.sobre-mim-title {
+  max-width: 600px;
+  position: relative;
+  z-index: 2;
+}
+
+.sobre-mim-title h1 {
+    padding-bottom: 25px;
+  color: var(--text-main);
+  font-size: 45px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.sobre-mim-title h1::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent));
+  animation: expandLine 2s ease-out forwards;
+}
+
+.sobre-mim-title p {
+  color: var(--text-sub);
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+/* Animações */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes expandLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 150px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre-mim-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .sobre-mim-code-decoration,
+  .sobre-mim-code-decoration-bottom,
+  .sobre-mim-floating-icons {
+    /* display: none; */
+  }
+
+  .sobre-mim-title h1 {
+    font-size: 35px;
+  }
+
+  .sobre-mim-title p {
+    font-size: 18px;
+  }
+}

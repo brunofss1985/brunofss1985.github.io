@@ -5,7 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio - Bruno Ferreira</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style-conhecimento.css" />
+  <link rel="stylesheet" href="css/style-sobre-mim.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -147,46 +149,152 @@
 
   <hr>
 
-  <div class="header-sobre-mim"></div>
-  <section class="sobre-mim">
-    <!-- Elementos decorativos -->
-    <div class="code-decoration">
-      &lt;html&gt;<br>
-      &nbsp;&nbsp;&lt;body&gt;<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&lt;dev&gt;<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding...<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/dev&gt;<br>
-      &nbsp;&nbsp;&lt;/body&gt;<br>
-      &lt;/html&gt;
+<div class="sobre-mim-header"></div>
+<section class="sobre-mim-container">
+  <!-- Elementos decorativos -->
+  <div class="sobre-mim-code-decoration">
+    &lt;html&gt;<br>
+    &nbsp;&nbsp;&lt;body&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dev&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding...<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/dev&gt;<br>
+    &nbsp;&nbsp;&lt;/body&gt;<br>
+    &lt;/html&gt;
+  </div>
+
+  <div class="sobre-mim-code-decoration-bottom">
+    function developer() {<br>
+    &nbsp;&nbsp;return 'passionate';<br>
+    }
+  </div>
+
+  <div class="sobre-mim-floating-icons">
+    <div class="sobre-mim-floating-icon">{ }</div>
+    <div class="sobre-mim-floating-icon">&lt;/&gt;</div>
+    <div class="sobre-mim-floating-icon">JS</div>
+  </div>
+
+  <div class="sobre-mim-image">
+    <img src="img/1741867804463.jpeg" alt="Lucyan Ovídio">
+  </div>
+
+  <div class="sobre-mim-title">
+    <h1>Sobre Mim</h1>
+    <p>Sou desenvolvedor Front-end com experiência em Angular 13, Material Design, Bootstrap, SCSS, RXJS e Swagger,
+      especializado na criação de aplicações web responsivas e dinâmicas. Atuei em projetos como CMV (gestão de
+      mercadorias) e Minha Coleta (gestão de resíduos), contribuindo para interfaces intuitivas e eficientes.
+      Atualmente, estou ampliando minhas habilidades para back-end com Java e Spring Boot, desenvolvendo um projeto
+      full-stack para integrar melhor front-end e back-end. Estou terminando o curso de Análise e Desenvolvimento de
+      Sistemas, com previsão de conclusão em um ano. Estou aberto a desafios que me permitam contribuir com soluções
+      inovadoras e aprimorar minhas habilidades técnicas.</p>
+  </div>
+</section>
+
+
+<section class="conhecimentos-section">
+  <!-- Elementos decorativos -->
+  <div class="conhecimentos-code-decoration">
+    const skills = {<br>
+    &nbsp;&nbsp;frontend: ['HTML', 'CSS', 'JS'],<br>
+    &nbsp;&nbsp;frameworks: ['Angular', 'React'],<br>
+    &nbsp;&nbsp;learning: ['Java', 'Spring']<br>
+    };
+  </div>
+
+  <div class="conhecimentos-code-decoration-bottom">
+    function createSolution() {<br>
+    &nbsp;&nbsp;return skills.map(skill => skill.master());<br>
+    }
+  </div>
+
+  <div class="conhecimentos-floating-icons">
+    <div class="conhecimentos-floating-icon">{ }</div>
+    <div class="conhecimentos-floating-icon">&lt;/&gt;</div>
+    <div class="conhecimentos-floating-icon">JS</div>
+  </div>
+
+  <div class="conhecimentos-title">
+    <h1>Meus Conhecimentos</h1>
+  </div>
+
+  <div class="conhecimentos-skills-container">
+    <!-- Frontend -->
+    <div class="conhecimentos-skill-category">
+      <h2><span>🌐</span> Frontend</h2>
+      <div class="conhecimentos-skill-list">
+        <div class="conhecimentos-skill-item">HTML5</div>
+        <div class="conhecimentos-skill-item">CSS3</div>
+        <div class="conhecimentos-skill-item">JavaScript</div>
+        <div class="conhecimentos-skill-item">TypeScript</div>
+        <div class="conhecimentos-skill-item">Angular 13</div>
+        <div class="conhecimentos-skill-item">Material Design</div>
+        <div class="conhecimentos-skill-item">Bootstrap</div>
+        <div class="conhecimentos-skill-item">SCSS</div>
+        <div class="conhecimentos-skill-item">RXJS</div>
+        <div class="conhecimentos-skill-item">Responsive Design</div>
+      </div>
+      <div class="conhecimentos-skill-level">
+        <span>Nível de experiência</span>
+        <div class="conhecimentos-level-bar">
+          <div class="conhecimentos-level-fill" style="width: 70%"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="code-decoration-bottom">
-      function developer() {<br>
-      &nbsp;&nbsp;return 'passionate';<br>
-      }
+    <!-- Backend -->
+    <div class="conhecimentos-skill-category">
+      <h2><span>⚙️</span> Backend</h2>
+      <div class="conhecimentos-skill-list">
+        <div class="conhecimentos-skill-item">Java</div>
+        <div class="conhecimentos-skill-item">Spring Boot</div>
+        <div class="conhecimentos-skill-item">API REST</div>
+        <div class="conhecimentos-skill-item">Swagger</div>
+      </div>
+      <div class="conhecimentos-skill-level">
+        <span>Nível de experiência</span>
+        <div class="conhecimentos-level-bar">
+          <div class="conhecimentos-level-fill" style="width: 10%"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="sobre-floating-icons">
-      <div class="floating-icon">{ }</div>
-      <div class="floating-icon">&lt;/&gt;</div>
-      <div class="floating-icon">JS</div>
+    <!-- Ferramentas -->
+    <div class="conhecimentos-skill-category">
+      <h2><span>🛠️</span> Ferramentas</h2>
+      <div class="conhecimentos-skill-list">
+        <div class="conhecimentos-skill-item">Git</div>
+        <div class="conhecimentos-skill-item">GitHub</div>
+        <div class="conhecimentos-skill-item">VS Code</div>
+        <div class="conhecimentos-skill-item">Figma</div>
+        <div class="conhecimentos-skill-item">NPM</div>
+        <div class="conhecimentos-skill-item">Webpack</div>
+      </div>
+      <div class="conhecimentos-skill-level">
+        <span>Nível de experiência</span>
+        <div class="conhecimentos-level-bar">
+          <div class="conhecimentos-level-fill" style="width: 70%"></div>
+        </div>
+      </div>
     </div>
 
-    <div class="sobre-mim-imagem">
-      <img src="img/1741867804463.jpeg" alt="Lucyan Ovídio">
+    <!-- Projetos -->
+    <div class="conhecimentos-skill-category">
+      <h2><span>📱</span> Projetos</h2>
+      <div class="conhecimentos-skill-list">
+        <div class="conhecimentos-skill-item">CMV (Gestão de Mercadorias)</div>
+        <div class="conhecimentos-skill-item">Minha Coleta (Gestão de Resíduos)</div>
+        <div class="conhecimentos-skill-item">Projeto Full-Stack (Em desenvolvimento)</div>
+      </div>
+      <div class="conhecimentos-skill-level">
+        <span>Complexidade</span>
+        <div class="conhecimentos-level-bar">
+          <div class="conhecimentos-level-fill" style="width: 70%"></div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="sobre-mim-title">
-      <h1>Sobre Mim</h1>
-      <p>Sou desenvolvedor Front-end com experiência em Angular 13, Material Design, Bootstrap, SCSS, RXJS e Swagger,
-        especializado na criação de aplicações web responsivas e dinâmicas. Atuei em projetos como CMV (gestão de
-        mercadorias) e Minha Coleta (gestão de resíduos), contribuindo para interfaces intuitivas e eficientes.
-        Atualmente, estou ampliando minhas habilidades para back-end com Java e Spring Boot, desenvolvendo um projeto
-        full-stack para integrar melhor front-end e back-end. Estou terminando o curso de Análise e Desenvolvimento de
-        Sistemas, com previsão de conclusão em um ano. Estou aberto a desafios que me permitam contribuir com soluções
-        inovadoras e aprimorar minhas habilidades técnicas.</p>
-    </div>
-  </section>
 
   <footer class="fade-in">
     <p>&copy; 2025 - Bruno Ferreira</p>
