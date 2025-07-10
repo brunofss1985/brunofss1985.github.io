@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/style-conhecimento.css" />
   <link rel="stylesheet" href="css/style-sobre-mim.css" />
   <link rel="stylesheet" href="css/contato.css" />
+  <link rel="stylesheet" href="css/footer.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -50,8 +51,7 @@
     </div>
   </header>
 
-  <div class="particles" id="particles"></div>
-
+  <div id="home" class="particles" id="particles"></div>
   <div class="main-content">
     <div class="hero-container">
       <div class="content-section">
@@ -148,8 +148,6 @@
     </div>
   </div>
 
-  <hr>
-
   <div id="sobre-mim" class="sobre-mim-header"></div>
   <section class="sobre-mim-container">
     <!-- Elementos decorativos -->
@@ -190,7 +188,6 @@
         inovadoras e aprimorar minhas habilidades técnicas.</p>
     </div>
   </section>
-
 
   <section id="conhecimentos" class="conhecimentos-section">
     <!-- Elementos decorativos -->
@@ -321,7 +318,8 @@
           <span class="contatos-search-text">Buscar</span>
         </div>
 
-        <a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank" style="text-decoration: none;">
+        <a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank"
+          style="text-decoration: none;">
           <div class="contatos-contact-list">
             <div class="contatos-contact-item">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
@@ -337,7 +335,8 @@
         </a>
 
 
-        <a href="mailto:brunofss1985@gmail.com?subject=Olá&body=Gostaria%20de%20saber%20mais%20informações." target="_blank" style="text-decoration: none;">
+        <a href="mailto:brunofss1985@gmail.com?subject=Olá&body=Gostaria%20de%20saber%20mais%20informações."
+          target="_blank" style="text-decoration: none;">
           <div class="contatos-contact-item">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
               class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
@@ -365,7 +364,7 @@
               <div class="contatos-detail">www.linkedin.com/in/brunofss1985/</div>
             </div>
           </div>
-        </a> 
+        </a>
       </div>
 
       <div class="contatos-bottom-bar">
@@ -398,10 +397,69 @@
     </div>
   </section>
 
+  <div class="footer">
+    <!-- Floating icons -->
+    <div class="footer-floating-icons">
+      <div class="footer-floating-icon">{ }</div>
+      <div class="footer-floating-icon">⚡</div>
+      <div class="footer-floating-icon">🚀</div>
+    </div>
 
-  <footer class="fade-in">
-    <p>&copy; 2025 - Bruno Ferreira</p>
-  </footer>
+    <!-- Code decoration (faltando anteriormente) -->
+    <div class="footer-code-decoration">
+      &lt;html&gt;<br />
+      &nbsp;&nbsp;&lt;body&gt;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;...&lt;/code&gt;<br />
+      &nbsp;&nbsp;&lt;/body&gt;<br />
+      &lt;/html&gt;
+    </div>
+
+    <!-- Container principal -->
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>&lt;LO/&gt;</h2>
+          <p>Desenvolvedor Front-end</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3>Navegação</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre-mim">Sobre Mim</a></li>
+              <li><a href="#conhecimentos">Conhecimentos</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-column">
+            <h3>Social</h3>
+            <ul>
+              <li><a href="https://brunofss1985.github.io/" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/brunofss1985/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; <span id="footer-current-year">2023</span> Bruno Ferreira. Todos os direitos reservados.
+        </div>
+        <div class="footer-decoration">
+          <span class="footer-code-element">&lt;/&gt;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+      ↑
+    </div>
+  </div>
+
 </body>
 
 </html>

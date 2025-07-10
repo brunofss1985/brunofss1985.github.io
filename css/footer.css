@@ -1,0 +1,236 @@
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer {
+  background-color: var(--bg-light);
+  padding: 60px 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color), var(--primary-color));
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  flex: 0 0 300px;
+  margin-bottom: 30px;
+}
+
+.footer-logo h2 {
+  font-size: 32px;
+  color:  #64ffda;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: var(--text-sub);
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.footer-links-column h3 {
+  color: var(--text-main);
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-links-column h3::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.footer-links-column ul {
+  list-style: none;
+  padding-left: 0; 
+
+}
+
+.footer-links-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links-column ul li a {
+  color: var(--text-sub);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 0;
+}
+
+.footer-links-column ul li a:hover {
+  color: var(--accent-color);
+  padding-left: 5px;
+}
+
+.footer-bottom {
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  color: var(--text-sub);
+  font-size: 14px;
+}
+
+.footer-decoration {
+  position: relative;
+}
+
+.footer-code-element {
+  color:  #64ffda;
+  font-size: 20px;
+  font-family: 'Courier New', monospace;
+  opacity: 0.8;
+}
+
+.footer-code-decoration {
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  font-family: 'Courier New', monospace;
+  color: var(--text-green);
+  opacity: 0.15;
+  font-size: 12px;
+  line-height: 1.4;
+  animation: fadeInOut 6s ease-in-out infinite;
+}
+
+.footer-floating-icons {
+  position: absolute;
+  bottom: 30%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0.15;
+}
+
+.footer-floating-icon {
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+.footer-floating-icon:nth-child(2) {
+  animation-delay: 0.5s;
+  background: var(--accent-color);
+}
+
+.footer-floating-icon:nth-child(3) {
+  animation-delay: 1s;
+  background: var(--text-blue);
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-code-decoration,
+  .footer-floating-icons {
+    display: none;
+  }
+}
+
+.footer-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 100;
+  box-shadow: 0 4px 15px rgba(0, 191, 255, 0.3);
+}
+
+.footer-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.footer-back-to-top:hover {
+  background: var(--accent-color);
+  transform: translateY(-5px);
+}
