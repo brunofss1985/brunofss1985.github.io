@@ -95,7 +95,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
 }
 
 .footer-copyright {
@@ -183,8 +183,9 @@
   }
 
   .footer-logo {
+    flex: 0 0 ;
     margin-bottom: 40px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .footer-links {
@@ -195,7 +196,7 @@
   .footer-bottom {
     flex-direction: column;
     gap: 15px;
-    text-align: center;
+    text-align: right;
   }
 
   .footer-code-decoration,
