@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
 :root {
   --primary-color: #00bfff;
   --accent-color: #64ffda;
@@ -48,9 +48,11 @@ header.transparent {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.9rem;
+  font-weight: 400;
   color: #00bfff;
+
+   font-family: "Tektur", sans-serif;
 }
 
 .nav-links {
