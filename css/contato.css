@@ -1,0 +1,360 @@
+.contatos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header da seção */
+.contatos-header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Seção de contatos */
+.contatos-section {
+    background-color: var(--code-bg);
+    position: relative;
+    padding: 80px 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Título da seção */
+.contatos-title {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contatos-title h1 {
+    padding-bottom: 25px;
+    color: var(--text-main);
+    font-size: 45px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.contatos-title h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    animation: contatos-expandLine 2s ease-out forwards;
+}
+
+@keyframes contatos-expandLine {
+    to {
+        width: 100px;
+    }
+}
+
+/* iPhone Container */
+.contatos-iphone-container {
+    position: relative;
+    width: 320px;
+    height: 650px;
+    background: #1a1a1a;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin: 0 auto;
+    z-index: 2;
+    overflow: hidden;
+    animation: contatos-pulse 3s infinite;
+}
+
+/* iPhone Notch */
+.contatos-iphone-notch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 30px;
+    background: #1a1a1a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 3;
+}
+
+/* iPhone Screen */
+.contatos-iphone-screen {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-mid);
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* iPhone Status Bar */
+.contatos-status-bar {
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.contatos-status-time {
+    font-weight: bold;
+}
+
+.contatos-status-icons {
+    display: flex;
+    gap: 5px;
+}
+
+/* Contact App Header */
+.contatos-app-header {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contatos-app-header h2 {
+    color: var(--text-main);
+    font-size: 24px;
+}
+
+.contatos-edit-btn {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+/* Search Bar */
+.contatos-search-bar {
+    margin: 10px 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contatos-search-icon {
+    color: var(--text-sub);
+}
+
+.contatos-search-text {
+    color: var(--text-sub);
+    font-size: 14px;
+}
+
+/* Contact List */
+.contatos-contact-list {
+    padding: 10px 0;
+}
+
+.contatos-contact-item {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.contatos-contact-item:hover {
+    background: rgba(0, 191, 255, 0.1);
+}
+
+.contatos-contact-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(100, 255, 218, 0.1), transparent);
+    transition: 0.5s;
+}
+
+.contatos-contact-item:hover::after {
+    left: 100%;
+}
+
+.contatos-avatar {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contatos-info {
+    flex: 1;
+}
+
+.contatos-name {
+    color: var(--text-main);
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.contatos-detail {
+    color: var(--text-sub);
+    font-size: 13px;
+}
+
+/* Bottom App Bar */
+.contatos-bottom-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contatos-bottom-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-sub);
+    font-size: 12px;
+    gap: 5px;
+}
+
+.contatos-bottom-icon.active {
+    color: var(--primary-color);
+}
+
+/* Elementos decorativos */
+.contatos-code-decoration {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-family: 'Courier New', monospace;
+    color: var(--text-blue);
+    opacity: 0.25;
+    font-size: 12px;
+    line-height: 1.4;
+    animation: contatos-fadeInOut 6s ease-in-out infinite;
+}
+
+.contatos-code-decoration-bottom {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    font-family: 'Courier New', monospace;
+    color: var(--text-green);
+    opacity: 0.25;
+    font-size: 12px;
+    line-height: 1.4;
+    animation: contatos-fadeInOut 6s ease-in-out infinite reverse;
+}
+
+.contatos-floating-icons {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0.2;
+}
+
+.contatos-floating-icon {
+    width: 30px;
+    height: 30px;
+    background: var(--primary-color);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    animation: contatos-bounce 3s ease-in-out infinite;
+}
+
+.contatos-floating-icon:nth-child(2) {
+    animation-delay: 0.5s;
+    background: var(--accent-color);
+}
+
+.contatos-floating-icon:nth-child(3) {
+    animation-delay: 1s;
+    background: var(--text-blue);
+}
+
+/* Animações */
+@keyframes contatos-fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes contatos-bounce {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes contatos-pulse {
+    0% {
+        box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+    }
+
+    50% {
+        box-shadow: 0 0 30px rgba(100, 255, 218, 0.4);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+    }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+
+    .contatos-code-decoration,
+    .contatos-code-decoration-bottom {
+        display: none;
+    }
+
+    .contatos-floating-icons {
+        right: 5%;
+    }
+}
