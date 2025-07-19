@@ -40,13 +40,14 @@ header {
   top: 0;
   width: 100%;
   background-color: #000000;
-  color: #00bfff;
+  color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 200px;
+  padding: 15px 10vw;
   z-index: 1000;
   transition: background-color 0.4s ease;
+  flex-wrap: wrap;
 }
 
 header.transparent {
@@ -64,8 +65,20 @@ header.transparent {
 }
 
 .nav-links {
+  flex-wrap: wrap;
+  /* evita que o conteúdo ultrapasse forçadamente */
+  gap: 20px;
+  /* reduz o espaçamento */
   display: flex;
   gap: 30px;
+}
+
+#sobre-mim-a {
+  padding-left: 50px;
+}
+
+#sobre-mim-contatos {
+  padding-right: 50px;
 }
 
 .nav-links a {
@@ -484,16 +497,32 @@ header.transparent {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 854px) {
   header {
-    padding: 15px 20px;
     flex-direction: column;
-    gap: 15px;
-    height: auto;
+    padding: 15px 5vw;
+    align-items: flex-start;
   }
 
   .nav-links {
-    gap: 20px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  #sobre-mim-a {
+    padding-left: 0;
+  }
+
+  #sobre-mim-contatos {
+    margin-right: 0;
+  }
+
+  .social-icons {
+    right: 15px;
+    position: absolute;
+    margin-top: 10px;
+    top: 15px;
+    margin-top: 10px;
   }
 
   .main-content {
@@ -569,6 +598,19 @@ header.transparent {
   }
 }
 
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 0.9rem;
+
+  }
+
+}
+
 @media (max-width: 480px) {
   header {
     padding: 10px 15px;
@@ -576,7 +618,12 @@ header.transparent {
 
   .nav-links {
     gap: 15px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+
+  }
+
+  .social-icons {
+    top: 0;
   }
 
   .logo {

@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio - Bruno Ferreira</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/style-conhecimento.css" />
   <link rel="stylesheet" href="css/style-sobre-mim.css" />
+  <link rel="stylesheet" href="css/style-conhecimento.css" />
+  <link rel="stylesheet" href="css/projetos.css" />
   <link rel="stylesheet" href="css/contato.css" />
   <link rel="stylesheet" href="css/footer.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -20,10 +21,11 @@
     <div class="logo">Bruno Ferreira</div>
 
     <nav class="nav-links">
-      <a href="#sobre-mim">Sobre mim</a>
+      <a id="sobre-mim-a" href="#sobre-mim">Sobre mim</a>
       <a href="#projetos">Projetos</a>
+      <a href="#experiencias">Experiências</a>
       <a href="#conhecimentos">Conhecimentos</a>
-      <a href="#contatos">Fale comigo</a>
+      <a id="sobre-mim-contatos" href="#contatos">Fale comigo</a>
     </nav>
 
     <div class="social-icons">
@@ -57,12 +59,12 @@
       <div class="content-section">
         <div class="greeting">Olá, eu sou</div>
         <h1 class="name">Bruno Ferreira</h1>
-        <h2 class="title">Desenvolvedor Frontend</h2>
+        <h2 class="title">Desenvolvedor Front-end</h2>
         <p class="description">
-          Especializado em criar experiências digitais excepcionais.
-          Transformo ideias em código limpo e soluções inovadoras que fazem a diferença.
+          Desenvolvedor Front-End especializado em criar interfaces intuitivas e responsivas. Transformo ideias em
+          código limpo, acessível e eficiente, entregando experiências digitais que realmente fazem a diferença.
         </p>
-        <button class="cta-button">Ver Meus Projetos</button>
+        <a href="#projetos"><button class="cta-button">Ver Meus Projetos</button></a>
       </div>
 
       <div class="animation-section">
@@ -180,12 +182,10 @@
     <div class="sobre-mim-title">
       <h1>Sobre Mim</h1>
       <p>Sou desenvolvedor Front-end com experiência em Angular 13, Material Design, Bootstrap, SCSS, RXJS e Swagger,
-        especializado na criação de aplicações web responsivas e dinâmicas. Atuei em projetos como CMV (gestão de
-        mercadorias) e Minha Coleta (gestão de resíduos), contribuindo para interfaces intuitivas e eficientes.
-        Atualmente, estou ampliando minhas habilidades para back-end com Java e Spring Boot, desenvolvendo um projeto
-        full-stack para integrar melhor front-end e back-end. Estou terminando o curso de Análise e Desenvolvimento de
-        Sistemas, com previsão de conclusão em um ano. Estou aberto a desafios que me permitam contribuir com soluções
-        inovadoras e aprimorar minhas habilidades técnicas.</p>
+        especializado na criação de aplicações web responsivas e dinâmicas. Já atuei em projetos focados em usabilidade
+        e performance, contribuindo para interfaces eficientes e intuitivas. Atualmente, aprofundo meus conhecimentos em
+        back-end com Java e Spring Boot em um projeto full-stack. Curso Análise e Desenvolvimento de Sistemas, com
+        conclusão prevista para 2026, e busco desafios que expandam meu domínio técnico.</p>
     </div>
   </section>
 
@@ -292,6 +292,239 @@
       </div>
     </div>
   </section>
+
+  <!-- Seção: Projetos -->
+  <div id="projetos" class="sobre-mim-header"></div>
+  <section class="projetos">
+    <!-- Elementos decorativos -->
+    <div class="code-decoration">
+      const projects = [<br>
+      &nbsp;&nbsp;{<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: 'CMV',<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;tech: ['Angular', 'TypeScript']<br>
+      &nbsp;&nbsp;},<br>
+      &nbsp;&nbsp;{<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: 'Minha Coleta',<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;tech: ['Java', 'Spring Boot']<br>
+      &nbsp;&nbsp;}<br>
+      ];
+    </div>
+
+    <div class="code-decoration-bottom">
+      function showProjects() {<br>
+      &nbsp;&nbsp;return projects.map(p => {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;return `<div>${p.name}</div>`;<br>
+      &nbsp;&nbsp;});<br>
+      }
+    </div>
+
+    <div class="projetos-floating-icons">
+      <div class="floating-icon">💻</div>
+      <div class="floating-icon">🚀</div>
+      <div class="floating-icon">⚙️</div>
+    </div>
+
+    <div class="projetos-title">
+      <h1>Meus Projetos</h1>
+    </div>
+
+    <div class="projetos-grid">
+      <!-- Projeto 1 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">CMV</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">CMV - Gestão de Mercadorias</h3>
+          <p class="projeto-description">
+            Sistema de gestão de mercadorias desenvolvido para otimizar o controle de estoque e fluxo de produtos.
+            Implementação de dashboard interativo com métricas em tempo real.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Material Design</span>
+            <span class="tech-tag">RXJS</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">MC</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Minha Coleta - Gestão de Resíduos</h3>
+          <p class="projeto-description">
+            Aplicação para gerenciamento de coleta de resíduos, permitindo o agendamento de coletas e monitoramento do
+            ciclo de vida dos materiais recicláveis.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">API REST</span>
+            <span class="tech-tag">Swagger</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">FS</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Projeto Full-Stack</h3>
+          <p class="projeto-description">
+            Aplicação completa com frontend em Angular e backend em Java Spring Boot. Implementação de autenticação JWT,
+            CRUD completo e dashboard de análise de dados.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 4 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">PF</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Portfólio Pessoal</h3>
+          <p class="projeto-description">
+            Site de portfólio pessoal desenvolvido com HTML, CSS e JavaScript. Design responsivo e animações suaves para
+            uma experiência de usuário agradável.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Experiência Profissional -->
+
+  <section id="experiencias" class="experiencias">
+    <h1 class="experiencias-title">Experiência Profissional</h1>
+
+    <div class="timeline">
+      <!-- Experiência 1 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">Desenvolvedor Frontend</h3>
+          <div class="timeline-company">Empresa XYZ</div>
+          <p class="timeline-description">
+            Desenvolvimento de interfaces de usuário com Angular 13, implementação de componentes reutilizáveis e
+            integração com APIs REST. Participação em reuniões de planejamento e revisão de código.
+          </p>
+          <div class="timeline-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Material Design</span>
+          </div>
+        </div>
+        <div class="timeline-date">2022-2023</div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <!-- Experiência 2 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">Desenvolvedor Full Stack Jr.</h3>
+          <div class="timeline-company">Startup ABC</div>
+          <p class="timeline-description">
+            Desenvolvimento de aplicações web utilizando Angular no frontend e Java Spring Boot no backend.
+            Implementação de autenticação JWT e criação de APIs RESTful.
+          </p>
+          <div class="timeline-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Angular</span>
+          </div>
+        </div>
+        <div class="timeline-date">2021-2022</div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <!-- Experiência 3 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">Estagiário de Desenvolvimento</h3>
+          <div class="timeline-company">Empresa 123</div>
+          <p class="timeline-description">
+            Suporte no desenvolvimento de aplicações web, correção de bugs e implementação de novas funcionalidades.
+            Aprendizado prático de metodologias ágeis e trabalho em equipe.
+          </p>
+          <div class="timeline-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Git</span>
+          </div>
+        </div>
+        <div class="timeline-date">2020-2021</div>
+        <div class="timeline-dot"></div>
+      </div>
+    </div>
+  </section>
+
 
   <div id="contatos" class="sobre-mim-header"></div>
   <section class="contatos-section">
@@ -439,7 +672,8 @@
             <ul>
               <li><a href="https://brunofss1985.github.io/" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/brunofss1985/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank">WhatsApp</a></li>
+              <li><a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank">WhatsApp</a>
+              </li>
             </ul>
           </div>
         </div>
