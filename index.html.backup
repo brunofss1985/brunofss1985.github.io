@@ -24,13 +24,14 @@
     <nav class="nav-links">
       <a id="sobre-mim-a" href="#sobre-mim">Sobre mim</a>
       <a href="#conhecimentos">Conhecimentos</a>
+      <a href="#plano-30-dias">Plano 30 dias</a>
       <a href="#projetos">Projetos</a>
       <a href="#experiencias">Experiências</a>
       <a id="sobre-mim-contatos" href="#contatos">Fale comigo</a>
     </nav>
 
     <div class="social-icons">
-      <a href="https://github.com/brunofss1985" target="_blank">
+      <a href="https://brunofss1985.github.io/" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
           viewBox="0 0 16 16">
           <path
@@ -46,6 +47,7 @@
         </svg>
       </a>
 
+      </a>
       <a href="https://www.linkedin.com/in/brunofss1985/" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
           viewBox="0 0 16 16">
@@ -62,9 +64,10 @@
       <div class="content-section">
         <div class="greeting">Olá, eu sou</div>
         <h1 class="name">Bruno Ferreira</h1>
-        <h2 class="title">Desenvolvedor Front-end | Angular 20 | Full-stack em Evolução</h2>
+        <h2 class="title">Desenvolvedor Front-end</h2>
         <p class="description">
-          Desenvolvedor Front-end com 2+ anos de experiência em Angular (13 ao 20), TypeScript e RxJS. Especializado em Clean Code, arquitetura escalável e performance. Atualmente evoluindo para Full-stack com Java 21, Spring Boot e PostgreSQL. Transformo ideias em código de qualidade, entregando soluções que realmente fazem diferença.
+          Desenvolvedor Front-End especializado em criar interfaces intuitivas e responsivas. Transformo ideias em
+          código limpo, acessível e eficiente, entregando experiências digitais que realmente fazem a diferença.
         </p>
         <a href="#projetos"><button class="cta-button">Ver Meus Projetos</button></a>
       </div>
@@ -119,25 +122,28 @@
               <span class="symbol">=</span> <span class="bracket">{</span>
             </div>
             <div class="code-line">
-              &nbsp;&nbsp;<span class="variable">name</span><span class="symbol">:</span> <span class="string">'Bruno Ferreira'</span><span class="symbol">,</span>
-            </div>
-            <div class="code-line">
-              &nbsp;&nbsp;<span class="variable">role</span><span class="symbol">:</span> <span class="string">'Desenvolvedor Full-stack'</span><span class="symbol">,</span>
+              &nbsp;&nbsp;<span class="variable">name</span><span class="symbol">:</span> <span class="string">'Bruno
+                Ferreira'</span><span class="symbol">,</span>
             </div>
             <div class="code-line">
               &nbsp;&nbsp;<span class="variable">skills</span><span class="symbol">:</span> <span
                 class="bracket">[</span><span class="string">'Angular'</span><span class="symbol">,</span> <span
-                class="string">'TypeScript'</span><span class="symbol">,</span> <span class="string">'Java'</span><span class="bracket">]</span><span class="symbol">,</span>
+                class="string">'JavaScript'</span><span class="bracket">]</span><span class="symbol">,</span>
             </div>
             <div class="code-line">
-              &nbsp;&nbsp;<span class="function">buildSolutions</span><span class="symbol">:</span> <span
+              &nbsp;&nbsp;<span class="function">code</span><span class="symbol">:</span> <span
                 class="keyword">function</span><span class="bracket">()</span> <span class="bracket">{</span>
             </div>
             <div class="code-line">
-              &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">'Performance & Clean Code'</span><span class="symbol">;</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">'Soluções
+                incríveis!'</span><span class="symbol">;</span>
             </div>
             <div class="code-line">
-              &nbsp;&nbsp;<span class="bracket">}</span>
+              &nbsp;&nbsp;<span class="bracket">}</span><span class="symbol">,</span>
+            </div>
+            <div class="code-line">
+              &nbsp;&nbsp;<span class="variable">passion</span><span class="symbol">:</span> <span
+                class="string">'Tecnologia'</span>
             </div>
             <div class="code-line">
               <span class="bracket">};</span><span class="cursor"></span>
@@ -149,6 +155,202 @@
     </div>
   </div>
 
+  <div id="plano-30-dias" class="sobre-mim-header"></div>
+  <section class="plano-section">
+    <div class="plano-header">
+      <p class="plano-date">Gerado em 09/01/2026 • Currículo • LinkedIn • Portfólio • Cursos</p>
+      <h1>Plano de Atualização Profissional — Desenvolvedor Angular</h1>
+      <p class="plano-intro">Plano prático de 30 dias para um desenvolvedor Angular nível médio, com foco em Signals,
+        Standalone, testes e um toque de Java/Spring Boot. O objetivo é elevar a taxa de convites para entrevistas
+        deixando currículo, LinkedIn e portfólio totalmente alinhados com o que as vagas pedem hoje.</p>
+      <div class="plano-badges">
+        <span>Signals</span>
+        <span>Standalone</span>
+        <span>Testes (Cypress/Playwright)</span>
+        <span>Deploys Reais</span>
+      </div>
+    </div>
+
+    <div class="plano-objective-grid">
+      <article class="plano-card">
+        <h2>1) Objetivo</h2>
+        <p>Organizar a rotina do próximo mês para gerar evidências claras (mini apps, testes, deploys e READMEs) que
+          provem domínio de Angular moderno e fluência crescente em Java/Spring. Cada entrega vira conteúdo para o
+          currículo, LinkedIn e portfólio, facilitando ser chamado mais rápido.</p>
+      </article>
+      <article class="plano-card">
+        <h2>2) O que filtra vagas Angular hoje</h2>
+        <ul>
+          <li>Signals e Standalone como padrão de código e discurso.</li>
+          <li>Testes component + e2e com Cypress/Playwright em pipelines.</li>
+          <li>Qualidade e performance: lazy loading, DX, CI e boas práticas.</li>
+          <li>Portfólio com cara enterprise: auth, tabelas ricas, roles e deploy.</li>
+        </ul>
+        <div class="plano-links">
+          <a href="https://angular.dev/guide/signals" target="_blank">Angular — Signals (guia)</a>
+          <a href="https://angular.dev/guide/standalone-components" target="_blank">Angular — Migração Standalone</a>
+          <a href="https://blog.angular.dev/" target="_blank">Angular 2025 Strategy</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="plano-timeline">
+      <article class="plano-week">
+        <div class="week-chip">Semana 1</div>
+        <h3>Angular moderno (Signals + Standalone)</h3>
+        <p class="plano-meta">Meta: dominar o discurso e já aplicar em um mini app com cara profissional.</p>
+        <ul>
+          <li>Mini app com 3 rotas, guards, interceptors, loading e erros.</li>
+          <li>Estado com Signals onde fizer sentido + organização de pastas.</li>
+          <li>README direto: o que é, como rodar, como testar.</li>
+        </ul>
+        <div class="plano-links">
+          <a href="https://angular.dev/guide/signals" target="_blank">Signals (oficial)</a>
+          <a href="https://angular.dev/tutorials/signals" target="_blank">Tutorial Signals</a>
+          <a href="https://angular.dev/guide/standalone-components" target="_blank">Standalone/Migração</a>
+        </div>
+      </article>
+
+      <article class="plano-week">
+        <div class="week-chip">Semana 2</div>
+        <h3>Testes (component + e2e)</h3>
+        <p class="plano-meta">Meta: ter um projeto com testes públicos para sinalizar maturidade.</p>
+        <ul>
+          <li>15–30 testes combinando component e e2e.</li>
+          <li>Pipeline simples (GitHub Actions) executando os testes.</li>
+          <li>README com instruções claras de execução.</li>
+        </ul>
+        <div class="plano-links">
+          <a href="https://docs.cypress.io/guides/component-testing/angular/overview" target="_blank">Cypress
+            Component Testing</a>
+          <a href="https://playwright.dev/docs/intro" target="_blank">Playwright — Introdução</a>
+        </div>
+      </article>
+
+      <article class="plano-week">
+        <div class="week-chip">Semana 3</div>
+        <h3>Projeto enterprise-like</h3>
+        <p class="plano-meta">Meta: dashboard/admin com acabamento profissional e demo online.</p>
+        <ul>
+          <li>Auth (mesmo fake) + roles + guards.</li>
+          <li>Tabela avançada com filtros, paginação, ordenação e estados.</li>
+          <li>i18n simples, testes e deploy (Vercel/Netlify).</li>
+        </ul>
+        <div class="plano-links">
+          <a href="https://angular.dev/roadmap" target="_blank">Angular Roadmap</a>
+          <a href="https://github.com/PatrickJS/awesome-angular" target="_blank">Awesome Angular</a>
+        </div>
+      </article>
+
+      <article class="plano-week">
+        <div class="week-chip">Semana 4</div>
+        <h3>Fullstack leve (Angular + Spring Boot)</h3>
+        <p class="plano-meta">Meta: evoluir de "Java iniciante" para "fullstack em construção".</p>
+        <ul>
+          <li>API CRUD (tarefas/estoque/pedidos) com validações e paginação.</li>
+          <li>Login/JWT básico consumido pelo front Angular.</li>
+          <li>Deploy simples do front e back + README completo.</li>
+        </ul>
+        <div class="plano-links">
+          <a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat — Java Spring Boot</a>
+          <a href="https://www.dio.me/bootcamp/decola-tech-2025" target="_blank">DIO — Decola Tech 2025</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="plano-cursos">
+      <h2>4) Cursos e trilhas recomendadas</h2>
+      <div class="plano-cursos-grid">
+        <div class="plano-curso-bloco">
+          <h3>4.1 Angular (atualização)</h3>
+          <ul>
+            <li><a href="https://angular.dev/guide/signals" target="_blank">Angular — Signals (guia oficial)</a></li>
+            <li><a href="https://angular.dev/tutorials/signals" target="_blank">Tutorial interativo de Signals</a></li>
+            <li><a href="https://angular.dev/guide/standalone-components" target="_blank">Migração para Standalone</a></li>
+            <li><a href="https://angular.dev/roadmap" target="_blank">Angular Roadmap</a></li>
+            <li><a href="https://roadmap.sh/angular" target="_blank">Roadmap.sh — Angular Developer 2026</a></li>
+            <li><a href="https://www.pluralsight.com/paths/angular" target="_blank">Pluralsight — Angular Development</a></li>
+            <li><a href="https://www.pluralsight.com/courses/angular-architecture-best-practices" target="_blank">Pluralsight — Angular in Practice</a></li>
+          </ul>
+        </div>
+        <div class="plano-curso-bloco">
+          <h3>4.2 Testes (Cypress/Playwright)</h3>
+          <ul>
+            <li><a href="https://docs.cypress.io/guides/component-testing/angular/introduction" target="_blank">Cypress — Component Testing overview</a></li>
+            <li><a href="https://docs.cypress.io/guides/component-testing/writing-your-first-component-test" target="_blank">Cypress — Get Started</a></li>
+            <li><a href="https://playwright.dev/docs/intro" target="_blank">Playwright — Introdução</a></li>
+            <li><a href="https://playwright.dev/docs/writing-tests" target="_blank">Playwright — Writing tests</a></li>
+            <li><a href="https://playwright.dev/docs/best-practices" target="_blank">Playwright — Best practices</a></li>
+          </ul>
+        </div>
+        <div class="plano-curso-bloco">
+          <h3>4.3 Java + Spring Boot</h3>
+          <ul>
+            <li><a href="https://www.rocketseat.com.br/" target="_blank">Rocketseat — Java com Spring Boot</a></li>
+            <li><a href="https://www.alura.com.br/formacao-spring-boot-3" target="_blank">Alura — Formação Spring Boot 3</a></li>
+            <li><a href="https://www.alura.com.br/formacao-java-web-spring-boot" target="_blank">Alura — Java Web com Spring</a></li>
+            <li><a href="https://www.dio.me/bootcamp/decola-tech-2025" target="_blank">DIO — Decola Tech 2025</a></li>
+            <li><a href="https://www.dio.me/bootcamp" target="_blank">DIO — Catálogo Bootcamps</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="plano-guides">
+      <article class="plano-guide-card">
+        <h3>5) Currículo</h3>
+        <p>Faça recruiter entender em 10s que você entrega com qualidade.</p>
+        <ul>
+          <li>Título sugerido: <strong>Desenvolvedor Front-end Angular | 2 anos exp | Signals • Standalone • Testes (Cypress/Playwright) • Performance</strong></li>
+          <li>Resumo de 3–5 linhas focando em entrega, qualidade e stack.</li>
+          <li>Experiências: verbo + impacto + tecnologia.</li>
+          <li>Projetos linkados (GitHub + demo) e skills enxutas (Angular, TS, RxJS, testes, CI/CD, Java/Spring).</li>
+        </ul>
+      </article>
+
+      <article class="plano-guide-card">
+        <h3>6) LinkedIn</h3>
+        <p>Espelhe currículo e portfólio para reforçar palavras-chave.</p>
+        <ul>
+          <li>Headline igual ao título do currículo (incluir Signals/Standalone/Testing).</li>
+          <li>About em 5–7 linhas com nível, entregas e links.</li>
+          <li>Featured com 2 demos + repositórios principais.</li>
+          <li>Fixar skills: Angular, TypeScript, RxJS (ou Testes como diferencial).</li>
+        </ul>
+      </article>
+
+      <article class="plano-guide-card">
+        <h3>7) Portfólio (3 projetos chave)</h3>
+        <ul>
+          <li><strong>Projeto 1:</strong> Admin/Dashboard com auth, roles, tabela avançada, testes e deploy.</li>
+          <li><strong>Projeto 2:</strong> Foco em performance/SSR, lazy loading e UX.</li>
+          <li><strong>Projeto 3:</strong> Fullstack leve (Angular + Spring Boot) com CRUD, JWT e deploy.</li>
+          <li>Todos com README caprichado, scripts de testes e link da demo.</li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="plano-routine">
+      <article class="plano-routine-card">
+        <h3>8) Rotina sugerida</h3>
+        <ul>
+          <li>Seg–Sex: 2h/dia (curso + implementação no projeto da semana).</li>
+          <li>Sábado: ajustar README, refatorar, padronizar lint/format e escrever testes.</li>
+          <li>Domingo: deploy + atualizar currículo/LinkedIn + aplicar em vagas.</li>
+        </ul>
+      </article>
+      <article class="plano-routine-card">
+        <h3>9) Próximos passos</h3>
+        <ul>
+          <li>Escolha um tema de dashboard e crie o repositório com README objetivo.</li>
+          <li>Comece pela Semana 1 já planejando a cobertura de testes da Semana 2.</li>
+          <li>Ao final de cada semana, atualize LinkedIn (Featured) e currículo com o novo projeto.</li>
+          <li>Mantenha palavras-chave alinhadas entre currículo, LinkedIn e portfólio.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
   <div id="sobre-mim" class="sobre-mim-header"></div>
   <section class="sobre-mim-container">
     <!-- Elementos decorativos -->
@@ -156,7 +358,7 @@
       &lt;html&gt;<br>
       &nbsp;&nbsp;&lt;body&gt;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;dev&gt;<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;building...<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding...<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/dev&gt;<br>
       &nbsp;&nbsp;&lt;/body&gt;<br>
       &lt;/html&gt;
@@ -164,7 +366,7 @@
 
     <div class="sobre-mim-code-decoration-bottom">
       function developer() {<br>
-      &nbsp;&nbsp;return 'passionate about code';<br>
+      &nbsp;&nbsp;return 'passionate';<br>
       }
     </div>
 
@@ -174,15 +376,17 @@
       <div class="sobre-mim-floating-icon">JS</div>
     </div>
 
+    <div class="sobre-mim-image">
+      <img src="img/1741867804463.jpeg" alt="Lucyan Ovídio">
+    </div>
+
     <div class="sobre-mim-title">
       <h1>Sobre Mim</h1>
-      <p>Sou Desenvolvedor Front-end com foco prático em performance e Clean Code, apaixonado por criar e manter aplicações web eficientes. Ao longo da minha trajetória, acompanhei de perto a evolução do ecossistema Angular (da versão 13 ao Angular 20), e hoje busco aplicar em meus projetos conceitos modernos como Signals, Control Flow e Standalone Components, apoiados por uma base sólida em TypeScript, RxJS e SCSS.
-      <br><br>
-      Minha vivência diária integrando APIs e consumindo microsserviços no mercado despertou um forte interesse pelo desenvolvimento Full-stack. Atualmente, construo projetos autorais e sistemas completos utilizando Java 21, Spring Boot e PostgreSQL.
-      <br><br>
-      🚀 Meu grande diferencial atual: Utilizo a Inteligência Artificial como parceira de aprendizado e produtividade. Tenho explorado ativamente o uso de assistentes de IA (como ChatGPT e Copilot) para me auxiliar na estruturação de back-ends, modelagem de bancos de dados e para me guiar de forma prática em novas linguagens (como React). 
-      <br><br>
-      Busco agregar valor a times dinâmicos, unindo minha experiência comprovada em interfaces responsivas (Front-end) à minha constante evolução técnica em arquiteturas robustas (Back-end e Dados).</p>
+      <p>Sou desenvolvedor Front-end com experiência em Angular 13, Material Design, Bootstrap, SCSS, RXJS e Swagger,
+        especializado na criação de aplicações web responsivas e dinâmicas. Já atuei em projetos focados em usabilidade
+        e performance, contribuindo para interfaces eficientes e intuitivas. Atualmente, aprofundo meus conhecimentos em
+        back-end com Java e Spring Boot em um projeto full-stack. Curso Análise e Desenvolvimento de Sistemas, com
+        conclusão prevista para 2026, e busco desafios que expandam meu domínio técnico.</p>
     </div>
   </section>
 
@@ -190,15 +394,15 @@
     <!-- Elementos decorativos -->
     <div class="conhecimentos-code-decoration">
       const skills = {<br>
-      &nbsp;&nbsp;frontend: ['Angular 20', 'TypeScript', 'RxJS'],<br>
-      &nbsp;&nbsp;backend: ['Java 21', 'Spring Boot', 'PostgreSQL'],<br>
-      &nbsp;&nbsp;tools: ['Git', 'Swagger', 'Scrum']<br>
+      &nbsp;&nbsp;frontend: ['HTML', 'CSS', 'JS'],<br>
+      &nbsp;&nbsp;frameworks: ['Angular', 'React'],<br>
+      &nbsp;&nbsp;learning: ['Java', 'Spring']<br>
       };
     </div>
 
     <div class="conhecimentos-code-decoration-bottom">
-      function masterSkills() {<br>
-      &nbsp;&nbsp;return skills.map(skill => skill.excel());<br>
+      function createSolution() {<br>
+      &nbsp;&nbsp;return skills.map(skill => skill.master());<br>
       }
     </div>
 
@@ -215,73 +419,61 @@
     <div class="conhecimentos-skills-container">
       <!-- Frontend -->
       <div class="conhecimentos-skill-category">
-        <h2><span>🌐</span> Frontend (Especialidade)</h2>
+        <h2><span>🌐</span> Frontend</h2>
         <div class="conhecimentos-skill-list">
-          <div class="conhecimentos-skill-item">Angular 20</div>
-          <div class="conhecimentos-skill-item">Angular 13-19</div>
-          <div class="conhecimentos-skill-item">TypeScript</div>
-          <div class="conhecimentos-skill-item">RxJS</div>
           <div class="conhecimentos-skill-item">HTML5</div>
           <div class="conhecimentos-skill-item">CSS3</div>
-          <div class="conhecimentos-skill-item">SCSS</div>
+          <div class="conhecimentos-skill-item">JavaScript</div>
+          <div class="conhecimentos-skill-item">TypeScript</div>
+          <div class="conhecimentos-skill-item">Angular 13</div>
+          <div class="conhecimentos-skill-item">Material Design</div>
           <div class="conhecimentos-skill-item">Bootstrap</div>
-          <div class="conhecimentos-skill-item">Angular Material</div>
+          <div class="conhecimentos-skill-item">SCSS</div>
+          <div class="conhecimentos-skill-item">RXJS</div>
           <div class="conhecimentos-skill-item">Responsive Design</div>
-          <div class="conhecimentos-skill-item">Clean Code</div>
-          <div class="conhecimentos-skill-item">Performance</div>
-          <div class="conhecimentos-skill-item">Standalone Components</div>
-          <div class="conhecimentos-skill-item">Signals & Control Flow</div>
-          <div class="conhecimentos-skill-item">React (Conceitual)</div>
         </div>
         <div class="conhecimentos-skill-level">
           <span>Nível de experiência</span>
           <div class="conhecimentos-level-bar">
-            <div class="conhecimentos-level-fill" style="width: 95%"></div>
+            <div class="conhecimentos-level-fill" style="width: 70%"></div>
           </div>
         </div>
       </div>
 
       <!-- Backend -->
       <div class="conhecimentos-skill-category">
-        <h2><span>⚙️</span> Backend & Dados (Em Evolução)</h2>
+        <h2><span>⚙️</span> Backend</h2>
         <div class="conhecimentos-skill-list">
-          <div class="conhecimentos-skill-item">Java 21</div>
+          <div class="conhecimentos-skill-item">Java</div>
           <div class="conhecimentos-skill-item">Spring Boot</div>
           <div class="conhecimentos-skill-item">API REST</div>
           <div class="conhecimentos-skill-item">PostgreSQL</div>
           <div class="conhecimentos-skill-item">Spring Security</div>
-          <div class="conhecimentos-skill-item">JWT</div>
-          <div class="conhecimentos-skill-item">OAuth 2.0</div>
-          <div class="conhecimentos-skill-item">Lógica de Programação</div>
-          <div class="conhecimentos-skill-item">Arquitetura de Banco de Dados</div>
         </div>
         <div class="conhecimentos-skill-level">
           <span>Nível de experiência</span>
           <div class="conhecimentos-level-bar">
-            <div class="conhecimentos-level-fill" style="width: 45%"></div>
+            <div class="conhecimentos-level-fill" style="width: 10%"></div>
           </div>
         </div>
       </div>
 
-      <!-- Ferramentas & Metodologias -->
+      <!-- Ferramentas -->
       <div class="conhecimentos-skill-category">
-        <h2><span>🛠️</span> Ferramentas & Metodologias</h2>
+        <h2><span>🛠️</span> Ferramentas</h2>
         <div class="conhecimentos-skill-list">
-          <div class="conhecimentos-skill-item">Git & Git Flow</div>
-          <div class="conhecimentos-skill-item">GitHub & Bitbucket</div>
-          <div class="conhecimentos-skill-item">Swagger</div>
-          <div class="conhecimentos-skill-item">Scrum/Agile</div>
-          <div class="conhecimentos-skill-item">Redmine</div>
+          <div class="conhecimentos-skill-item">Git</div>
+          <div class="conhecimentos-skill-item">GitHub</div>
+          <div class="conhecimentos-skill-item">Git Flow</div>
           <div class="conhecimentos-skill-item">VS Code</div>
+          <div class="conhecimentos-skill-item">Figma</div>
           <div class="conhecimentos-skill-item">NPM</div>
-          <div class="conhecimentos-skill-item">Inteligência Artificial</div>
-          <div class="conhecimentos-skill-item">ChatGPT & Copilot</div>
-          <div class="conhecimentos-skill-item">Arquitetura e Design Patterns</div>
+          <div class="conhecimentos-skill-item">Redmine</div>
         </div>
         <div class="conhecimentos-skill-level">
           <span>Nível de experiência</span>
           <div class="conhecimentos-level-bar">
-            <div class="conhecimentos-level-fill" style="width: 85%"></div>
+            <div class="conhecimentos-level-fill" style="width: 70%"></div>
           </div>
         </div>
       </div>
@@ -296,20 +488,20 @@
     <div class="code-decoration">
       const projects = [<br>
       &nbsp;&nbsp;{<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;name: 'Personal Planner',<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;stack: ['Angular 20', 'Java 21', 'PostgreSQL']<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: 'CMV',<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;tech: ['Angular', 'TypeScript']<br>
       &nbsp;&nbsp;},<br>
       &nbsp;&nbsp;{<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;name: 'Gestão Clínica',<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;stack: ['React', 'TypeScript', 'TanStack Query']<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: 'Minha Coleta',<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;tech: ['Java', 'Spring Boot']<br>
       &nbsp;&nbsp;}<br>
       ];
     </div>
 
     <div class="code-decoration-bottom">
-      function showcaseProjects() {<br>
+      function showProjects() {<br>
       &nbsp;&nbsp;return projects.map(p => {<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;return `<hero>${p.name}</hero>`;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;return `<div>${p.name}</div>`;<br>
       &nbsp;&nbsp;});<br>
       }
     </div>
@@ -328,10 +520,14 @@
       <!-- Projeto 1 -->
       <div class="projeto-card">
         <div class="projeto-image">
-          <div class="projeto-image-placeholder">Personal Planner</div>
+          <div class="projeto-image-placeholder">CMV</div>
           <div class="projeto-image-overlay">
             <div class="projeto-image-overlay-buttons">
-              <a href="https://github.com/brunofss1985" class="projeto-button" target="_blank">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
                 <span>Código</span>
                 <span>&lt;/&gt;</span>
               </a>
@@ -339,17 +535,18 @@
           </div>
         </div>
         <div class="projeto-content">
-          <h3 class="projeto-title">Personal Planner - Full-stack</h3>
+          <h3 class="projeto-title">CMV - Gestão de Mercadorias</h3>
           <p class="projeto-description">
-            Aplicação Full-stack de ponta a ponta para gestão e organização pessoal. Este projeto consolida minha atualização para as versões mais modernas do ecossistema front-end e meus estudos práticos no back-end. Front-end construído com Angular 20 (Standalone Components, Signals e Control Flow). Back-end com Java 21, Spring Boot e PostgreSQL. Integração de Login com Google (OAuth 2.0) e Chatbot inteligente com API da OpenAI.
+            Sistema web corporativo para controle de estoque, vendas e análise financeira. Atuei como desenvolvedor
+            front-end utilizando Angular 13, TypeScript, RxJS e Angular Material. Contribuí na criação de interfaces
+            responsivas, componentes reutilizáveis e integração com APIs RESTful, seguindo boas práticas de Clean Code e
+            metodologia ágil.
           </p>
           <div class="projeto-tech">
-            <span class="tech-tag">Angular 20</span>
-            <span class="tech-tag">Java 21</span>
-            <span class="tech-tag">Spring Boot</span>
-            <span class="tech-tag">PostgreSQL</span>
-            <span class="tech-tag">OAuth 2.0</span>
-            <span class="tech-tag">OpenAI</span>
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Material Design</span>
+            <span class="tech-tag">RXJS</span>
           </div>
         </div>
       </div>
@@ -357,68 +554,14 @@
       <!-- Projeto 2 -->
       <div class="projeto-card">
         <div class="projeto-image">
-          <div class="projeto-image-placeholder">Gestão Clínica</div>
+          <div class="projeto-image-placeholder">MC</div>
           <div class="projeto-image-overlay">
             <div class="projeto-image-overlay-buttons">
-              <a href="https://github.com/brunofss1985" class="projeto-button" target="_blank">
-                <span>Código</span>
-                <span>&lt;/&gt;</span>
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
               </a>
-            </div>
-          </div>
-        </div>
-        <div class="projeto-content">
-          <h3 class="projeto-title">Sistema de Gestão Clínica - React</h3>
-          <p class="projeto-description">
-            Criação de uma plataforma web completa para rotinas médicas e de consultórios, com funcionalidades robustas como agenda de disponibilidades, controle analítico de inventário, registro de atendimentos, faturamento, gestão de créditos de pacientes e geração de prescrições médicas em PDF. Stack: Vite, React, TypeScript, Tailwind CSS, shadcn-ui e TanStack Query. Desenvolvido com suporte de IA para validação de lógicas e boas práticas. Comprova rápida adaptabilidade a novas stacks e foco em produtividade.
-          </p>
-          <div class="projeto-tech">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">Vite</span>
-            <span class="tech-tag">TanStack Query</span>
-            <span class="tech-tag">Tailwind CSS</span>
-            <span class="tech-tag">shadcn-ui</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Projeto 3 -->
-      <div class="projeto-card">
-        <div class="projeto-image">
-          <div class="projeto-image-placeholder">CMV</div>
-          <div class="projeto-image-overlay">
-            <div class="projeto-image-overlay-buttons">
-              <a href="https://github.com/brunofss1985" class="projeto-button" target="_blank">
-                <span>Código</span>
-                <span>&lt;/&gt;</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="projeto-content">
-          <h3 class="projeto-title">CMV - Gestão de Mercadorias (Data Grupo)</h3>
-          <p class="projeto-description">
-            Plataforma SPA focada no controle e análise financeira de estoque, oferecendo recursos de gestão de mercadorias, balanço financeiro, apuração de lucros e controle de vendas. Atuei como Desenvolvedor Front-end na evolução e manutenção contínua da aplicação, com foco em arquitetura escalável e componentização inteligente. Desenvolvido com Angular 13+, TypeScript e SCSS. Consumo de APIs RESTful com RxJS. Integração de Interceptors e autenticação JWT. Otimização de performance com Lazy Loading e Change Detection.
-          </p>
-          <div class="projeto-tech">
-            <span class="tech-tag">Angular 13+</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">SCSS</span>
-            <span class="tech-tag">Material Design</span>
-            <span class="tech-tag">RxJS</span>
-            <span class="tech-tag">JWT</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Projeto 4 -->
-      <div class="projeto-card">
-        <div class="projeto-image">
-          <div class="projeto-image-placeholder">Minha Coleta</div>
-          <div class="projeto-image-overlay">
-            <div class="projeto-image-overlay-buttons">
-              <a href="https://github.com/brunofss1985" class="projeto-button" target="_blank">
+              <a href="#" class="projeto-button">
                 <span>Código</span>
                 <span>&lt;/&gt;</span>
               </a>
@@ -428,15 +571,150 @@
         <div class="projeto-content">
           <h3 class="projeto-title">Minha Coleta - Gestão de Resíduos</h3>
           <p class="projeto-description">
-            Plataforma web desenvolvida para otimizar o fluxo da coleta seletiva, conectando geradores de resíduos a operadores logísticos e promovendo uma logística reversa eficiente. Atuei em todo o ciclo de desenvolvimento do Front-end (requisitos, prototipação, implementação e testes), focando em usabilidade, performance e acessibilidade. Desenvolvimento com Angular 13, TypeScript, SCSS e Bootstrap. Aplicação de Clean Code, componentização, guards e pipes. Integração de APIs documentadas via Swagger.
+            Sistema web para otimizar a coleta seletiva e conectar geradores a operadores logísticos. Atuei como
+            desenvolvedor front-end com Angular, TypeScript e SCSS, contribuindo em todas as etapas do projeto.
+            Desenvolvi interfaces responsivas, integrei APIs RESTful e apliquei boas práticas de código limpo e
+            componentização.
           </p>
           <div class="projeto-tech">
-            <span class="tech-tag">Angular 13</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">SCSS</span>
-            <span class="tech-tag">Bootstrap</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">API REST</span>
             <span class="tech-tag">Swagger</span>
-            <span class="tech-tag">Clean Code</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">FS</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Projeto Full-Stack</h3>
+          <p class="projeto-description">
+            Aplicação web full stack desenvolvida como estudo prático, com foco em CRUD de produtos, gerenciamento de
+            estoque e upload de imagens. Utiliza Angular no front-end (com formulários reativos, modais reutilizáveis e
+            consumo de APIs REST) e Spring Boot no back-end (com autenticação, validações, persistência em banco
+            relacional e envio de imagens via FormData). Projeto voltado à experiência completa de desenvolvimento
+            front-end e back-end com foco em escalabilidade, organização e boas práticas.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">JWT</span>
+            <span class="tech-tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 4 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">PF</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Portfólio Pessoal</h3>
+          <p class="projeto-description">
+            Site desenvolvido do zero para apresentar minhas habilidades, experiências e projetos. Estruturado com
+            HTML5, estilizado com CSS3 responsivo e interatividade aplicada com JavaScript puro. Foco em layout limpo,
+            navegação fluida e adaptação para diferentes dispositivos.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+      <!-- projeto 5 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">Nutrição</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="https://seulinkdemo.com" class="projeto-button" target="_blank">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="https://github.com/seuusuario/nutricao-projeto" class="projeto-button" target="_blank">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Site de Nutrição</h3>
+          <p class="projeto-description">
+            Projeto pessoal de site estático para nutrição, desenvolvido com HTML, CSS e JavaScript puro. O site
+            apresenta informações básicas sobre alimentação saudável, com design responsivo e foco em uma navegação
+            simples e clara.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- projeto 6 -->
+      <div class="projeto-card">
+        <div class="projeto-image">
+          <div class="projeto-image-placeholder">Loja</div>
+          <div class="projeto-image-overlay">
+            <div class="projeto-image-overlay-buttons">
+              <a href="#" class="projeto-button">
+                <span>Demo</span>
+                <span>▶</span>
+              </a>
+              <a href="#" class="projeto-button">
+                <span>Código</span>
+                <span>&lt;/&gt;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projeto-content">
+          <h3 class="projeto-title">Plataforma de E-commerce</h3>
+          <p class="projeto-description">
+            Aplicação web desenvolvida em Angular para exibir produtos de afiliados usando JSON como fonte de dados.
+            Interface dinâmica e responsiva que prioriza organização dos componentes, navegação fluida e performance,
+            ideal para apresentação prática e escalável de catálogos de produtos.
+          </p>
+          <div class="projeto-tech">
+            <span class="tech-tag">Angular</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">JSON</span>
+            <span class="tech-tag">CSS3</span>
           </div>
         </div>
       </div>
@@ -452,16 +730,17 @@
       <!-- Experiência 1 -->
       <div class="timeline-item">
         <div class="timeline-content">
-          <h3 class="timeline-title">Desenvolvedor Web Júnior</h3>
-          <div class="timeline-company">Data Grupo | Remoto</div>
+          <h3 class="timeline-title">Desenvolvedor Frontend Jr. Remoto</h3>
+          <div class="timeline-company">Data Grupo</div>
           <p class="timeline-description">
-            Desenvolvimento do SPA CMV (gestão de mercadorias) com Angular 13+, TypeScript e SCSS, focando em arquitetura escalável e componentização. Consumo de APIs RESTful via HttpClient e RxJS (Observables/Pipes). Criação de Interceptors e autenticação JWT para segurança da aplicação. Otimização de performance usando Lazy Loading e Change Detection em interfaces complexas para balanço financeiro e controle de estoque. Atuação em equipe ágil (Scrum/Redmine), garantindo entregas contínuas e versionamento estruturado via Git Flow no Bitbucket.
+            Desenvolvimento remoto focado na otimização da experiência do usuário, interfaces escaláveis e seguras.
+            Trabalhei com frameworks e ferramentas modernas, aplicando boas práticas de Clean Code e arquitetura de
+            componentes para projetos corporativos. Participação ativa em equipes multidisciplinares e em cerimônias
+            ágeis, utilizando ferramentas como Redmine para gestão de tarefas.
           </p>
           <div class="timeline-tech">
-            <span class="tech-tag">Angular 13+</span>
+            <span class="tech-tag">Angular</span>
             <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">RxJS</span>
-            <span class="tech-tag">SCSS</span>
             <span class="tech-tag">Material Design</span>
           </div>
         </div>
@@ -472,17 +751,39 @@
       <!-- Experiência 2 -->
       <div class="timeline-item">
         <div class="timeline-content">
-          <h3 class="timeline-title">Estagiário Desenvolvedor Front-end</h3>
-          <div class="timeline-company">Data Grupo | Híbrido</div>
+          <h3 class="timeline-title">Desenvolvedor Front-end Jr.</h3>
+          <div class="timeline-company">Data Grupo</div>
           <p class="timeline-description">
-            Participação no projeto Minha Coleta, engajado em todo o ciclo: dos requisitos até a implantação. Desenvolvimento de interfaces com Angular 13, SCSS, Bootstrap e manipulação reativa usando RxJS. Aplicação de Clean Code, componentização, guards e pipes para garantir segurança e escalabilidade. Integração de APIs via Swagger, marcando meu primeiro e valioso contato com a arquitetura Java. Trabalho em metodologia Scrum com foco em usabilidade, performance e acessibilidade.
+            Atuação como desenvolvedor front-end em dois projetos principais: CMV (gestão de mercadorias) e Minha Coleta
+            (gestão de resíduos). Responsável pela criação, manutenção e evolução das aplicações utilizando Angular 13,
+            TypeScript, RxJS, Angular Material e Bootstrap. Implementação de componentes reutilizáveis e arquitetura
+            limpa, integração com APIs RESTful, uso de metodologias ágeis e versionamento com Git Flow.
           </p>
           <div class="timeline-tech">
-            <span class="tech-tag">Angular 13</span>
-            <span class="tech-tag">TypeScript</span>
-            <span class="tech-tag">SCSS</span>
-            <span class="tech-tag">Bootstrap</span>
-            <span class="tech-tag">Swagger</span>
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">Spring Boot</span>
+            <span class="tech-tag">Angular</span>
+          </div>
+        </div>
+        <div class="timeline-date">mai 2023 - abr 2025</div>
+        <div class="timeline-dot"></div>
+      </div>
+
+      <!-- Experiência 3 -->
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3 class="timeline-title">Estagiário de Desenvolvimento</h3>
+          <div class="timeline-company">Data Grupo</div>
+          <p class="timeline-description">
+            Atuação no desenvolvimento front-end da plataforma Minha Coleta, sistema para gestão e automação do fluxo de
+            coleta seletiva. Desenvolvi interfaces responsivas e modulares usando Angular, TypeScript, SCSS e Bootstrap,
+            com integração a APIs RESTful. Participei de todo o ciclo de desenvolvimento, com foco em usabilidade,
+            performance e acessibilidade. Trabalhei com metodologias ágeis (Scrum) e controle de versão Git (Bitbucket).
+          </p>
+          <div class="timeline-tech">
+            <span class="tech-tag">HTML/CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">Git</span>
           </div>
         </div>
         <div class="timeline-date">jul 2022 - mai 2023</div>
@@ -490,6 +791,7 @@
       </div>
     </div>
   </section>
+
 
   <div id="contatos" class="sobre-mim-header"></div>
   <section class="contatos-section">
@@ -527,10 +829,11 @@
               </svg>
               <div class="contatos-info">
                 <div class="contatos-name">WhatsApp</div>
-                <div class="contatos-detail">(21) 99790-1014</div>
+                <div class="contatos-detail">5521997901014</div>
               </div>
             </div>
         </a>
+
 
         <a href="mailto:brunofss1985@gmail.com?subject=Olá&body=Gostaria%20de%20saber%20mais%20informações."
           target="_blank" style="text-decoration: none;">
@@ -558,7 +861,7 @@
             </svg>
             <div class="contatos-info">
               <div class="contatos-name">Linkedin</div>
-              <div class="contatos-detail">linkedin.com/in/brunofss1985</div>
+              <div class="contatos-detail">www.linkedin.com/in/brunofss1985/</div>
             </div>
           </div>
         </a>
@@ -575,15 +878,15 @@
     <!-- Decorações -->
     <div class="contatos-code-decoration">
       &lt;div class="contato"&gt;<br>
-      &nbsp;&nbsp;&lt;nome&gt;Bruno&lt;/nome&gt;<br>
-      &nbsp;&nbsp;&lt;interesse&gt;Angular & Java&lt;/interessa&gt;<br>
+      &nbsp;&nbsp;&lt;nome&gt;João&lt;/nome&gt;<br>
+      &nbsp;&nbsp;&lt;email&gt;joao@email.com&lt;/email&gt;<br>
       &lt;/div&gt;
     </div>
 
     <div class="contatos-code-decoration-bottom">
       const contato = &#123;<br>
-      &nbsp;&nbsp;nome: "Bruno Ferreira",<br>
-      &nbsp;&nbsp;telefone: "(21) 99790-1014"<br>
+      &nbsp;&nbsp;nome: "Ana",<br>
+      &nbsp;&nbsp;telefone: "99999-9999"<br>
       &#125;;
     </div>
 
@@ -602,11 +905,11 @@
       <div class="footer-floating-icon">🚀</div>
     </div>
 
-    <!-- Code decoration -->
+    <!-- Code decoration (faltando anteriormente) -->
     <div class="footer-code-decoration">
       &lt;html&gt;<br />
       &nbsp;&nbsp;&lt;body&gt;<br />
-      &nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;building...&lt;/code&gt;<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;...&lt;/code&gt;<br />
       &nbsp;&nbsp;&lt;/body&gt;<br />
       &lt;/html&gt;
     </div>
@@ -615,19 +918,18 @@
     <div class="footer-container">
       <div class="footer-content">
         <div class="footer-logo">
-          <h2>&lt;DEV/&gt;</h2>
-          <p>Desenvolvedor Front-end | Full-stack</p>
+          <h2>&lt;LO/&gt;</h2>
+          <p>Desenvolvedor Front-end</p>
         </div>
 
         <div class="footer-links">
           <div class="footer-links-column">
             <h3>Navegação</h3>
             <ul>
-              <li><a href="#particles">Home</a></li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#sobre-mim">Sobre Mim</a></li>
               <li><a href="#conhecimentos">Conhecimentos</a></li>
               <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#experiencias">Experiências</a></li>
               <li><a href="#contatos">Contatos</a></li>
             </ul>
           </div>
@@ -635,7 +937,7 @@
           <div class="footer-links-column">
             <h3>Social</h3>
             <ul>
-              <li><a href="https://github.com/brunofss1985" target="_blank">GitHub</a></li>
+              <li><a href="https://brunofss1985.github.io/" target="_blank">GitHub</a></li>
               <li><a href="https://www.linkedin.com/in/brunofss1985/" target="_blank">LinkedIn</a></li>
               <li><a href="https://wa.me/5521997901014?text=Olá,%20vi%20seu%20portifólio!" target="_blank">WhatsApp</a>
               </li>
@@ -646,7 +948,7 @@
 
       <div class="footer-bottom">
         <div class="footer-copyright">
-          &copy; <span id="footer-current-year">2026</span> Bruno Ferreira. Todos os direitos reservados.
+          &copy; <span id="footer-current-year">2023</span> Bruno Ferreira. Todos os direitos reservados.
         </div>
         <div class="footer-decoration">
           <span class="footer-code-element">&lt;/&gt;</span>
